@@ -129,7 +129,7 @@ input[type="checkbox"] {
 
 @media screen and (min-width: 800px) {
   :root {
-    font-size: calc(12px + .25em);
+    font-size: calc(12px + .05em);
   }
 
   body {
@@ -145,12 +145,12 @@ input[type="checkbox"] {
     flex-direction: row;
     background-color: white;
     height: initial;
-    padding: 3rem 3rem 3rem 0;
+    padding: 2rem 3rem 3rem 0;
     border-radius: 1.5rem;
   }
 
   .header {
-    position: relative;
+    position: static;
     flex: 0 1 50%;
     min-width:max-content;
     height: 100%;
@@ -168,10 +168,11 @@ input[type="checkbox"] {
   img.desktop {
     display: block;
     position: absolute;
-    width: 45%;
-    top: 75%;
-    transform: translateY(-75%);
-    left: -25%;
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10%;
+    margin-top: 4%;
   }
 
   .main {
