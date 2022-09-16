@@ -53,7 +53,7 @@ img.desktop {
   text-align: center;
   width: 100%;
   background-color: white;
-  background-image: url(/images/bg-pattern-mobile.svg);
+  background-image: url(images/bg-pattern-mobile.svg);
   background-repeat: no-repeat;
   background-size: 75%;
   background-position: 50% 0;
@@ -97,7 +97,7 @@ label:hover {
 
 .icon {
   display: inline-block;
-  background-image: url(/images/icon-arrow-down.svg);
+  background-image: url(images/icon-arrow-down.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
@@ -140,6 +140,10 @@ input[type="checkbox"] {
   }
 
   .wrapper {
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: -205% 75%;
     width: 100%;
     max-width: 48rem;
     flex-direction: row;
